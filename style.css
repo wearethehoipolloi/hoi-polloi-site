@@ -17,4 +17,5 @@ h1 {
 
 ol { 
     list-style-type: decimal-leading-zero;
+    padding-inline-start: 1em;
 }
