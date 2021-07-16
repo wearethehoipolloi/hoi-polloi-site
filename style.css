@@ -25,11 +25,14 @@ h2 {
 }
 
 ol { 
-    list-style-type: decimal-leading-zero;
     margin:0;
     padding:0;
-    margin-left:4vw;
-    margin-left:clamp(1rem, 0.8rem + 4vw, 2rem);
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+
+li {
+    margin: 1rem 0;
 }
 
     
