@@ -29,6 +29,9 @@ h3 {
 
 ol { 
     list-style-type: decimal-leading-zero;
+    margin:0;
+    padding:0;
+    margin-left:4vw;
 }
 
     
