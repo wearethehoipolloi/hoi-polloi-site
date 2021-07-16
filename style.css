@@ -28,19 +28,4 @@ ol {
     margin-left:4vw;
 }
 
-@media (min-width: 960px) {
-    body {
-        font-size:16px;
-    }
-    
-    h1{
-        font-size: 50px;
-    }
-    
-    h2{
-        font-size: 24px;
-    }
-    
-}
-
     
