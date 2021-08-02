@@ -38,12 +38,18 @@ li {
     margin: 1rem 0;
 }
 
+nav {
+    margin: 1% 0;
+}
+
 nav ol {
     display: flex;
     align-items: center;
     width: 100%;
     flex-direction: row;
     align-content: center;
+    justify-content: flex-end;
+    
 }
 
 nav ol li {
