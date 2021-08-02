@@ -35,4 +35,20 @@ li {
     margin: 1rem 0;
 }
 
-    
+
+ nav ol {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    align-content: center;
+}
+
+nav ol li {
+    margin: 0 1rem;
+}
+
+nav ol li:first {
+    margin: 0 1rem 0 0;
+}
+   
