@@ -38,6 +38,7 @@ li {
     margin: 1rem 0;
 }
 
+/* Nav */
 nav {
     margin: 1% 0;
 }
@@ -57,5 +58,11 @@ nav ol li {
 
 nav ol li:first {
     margin: 0 1rem 0 0;
+}
+
+/* Figures */
+pre.figure {
+    font-family: "Courier New", Courier, monospace;
+    white-space: pre;
 }
    
