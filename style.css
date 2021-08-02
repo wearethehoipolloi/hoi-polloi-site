@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&family=VT323&display=swap');
-@import url('/css/fixedsys.css');
 
 body {
     background-color: #fffc52;
@@ -63,8 +62,8 @@ nav ol li:first {
 
 /* Figures */
 pre.figure {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 0.7rem;
+    font-family: 'Menlo', 'Courier New', monospace;
+    font-size: 0.75rem;
     white-space: pre;
 }
    
