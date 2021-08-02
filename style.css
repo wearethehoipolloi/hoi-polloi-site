@@ -4,9 +4,12 @@ body {
     background-color: #fffc52;
     color: #000;
     font-family: 'Lexend', sans-serif;
-    margin: 10%;
     font-size: 1rem;
     font-size: clamp(1rem, 0.8rem + 1vw, 1.25rem); 
+}
+
+main {
+    margin: 10%;
 }
 
 h1,h2,h3,h4 {
@@ -35,8 +38,7 @@ li {
     margin: 1rem 0;
 }
 
-
- nav ol {
+nav ol {
     display: flex;
     align-items: center;
     width: 100%;
