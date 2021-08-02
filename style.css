@@ -63,6 +63,7 @@ nav ol li:first {
 /* Figures */
 pre.figure {
     font-family: "Courier New", Courier, monospace;
+    font-size: 0.7rem;
     white-space: pre;
 }
    
