@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="38" viewBox="0 0 125 38">
+  <defs>
+    <clipPath id="clip-Artboard_3">
+      <rect width="125" height="38"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_3" data-name="Artboard – 3" clip-path="url(#clip-Artboard_3)">
+    <text id="Hoi_Polloi" data-name="Hoi Polloi" transform="translate(34 26)" fill="#002c56" font-size="18" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Hoi Polloi</tspan></text>
+    <circle id="Ellipse_24" data-name="Ellipse 24" cx="10" cy="10" r="10" transform="translate(10 10)" fill="#ff6310"/>
+  </g>
+</svg>
