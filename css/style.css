@@ -1518,11 +1518,14 @@ h6 { font-size: 16px; }
 form .form_body {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 form .form_body .left {
-	width: 75%;
+	min-width: 350px;
 	margin-right: 12px;
+	margin-bottom: 12px;
+	margin-top: 12px;
 }
 
 form .form_body .left input {
