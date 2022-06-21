@@ -151,8 +151,17 @@ h6 { font-size: 16px; }
 	text-align: center;
 }
 
+.button.light {
+	color: var(--extra-color) !important;
+	background-color: #F2ECE2;
+}
+
 .button:hover {
 	background-color:var(--extra-color-dark);
+} 
+
+.button.light:hover {
+	background-color:#d5a994;
 } 
 
 .button.signup {
@@ -581,10 +590,12 @@ h6 { font-size: 16px; }
 	bottom: 9px;
 }
 .tonni_tm_button{
+	/*
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
+	*/
 }
 .tonni_tm_button a{
 	font-family: var(--font-family-extra);
@@ -1494,6 +1505,34 @@ h6 { font-size: 16px; }
 	background-size: cover;
 	background-position: center;
 	border-radius: 12px;
+}
+
+/*---------------------------------------------------*/
+/*	07.5 FORM
+/*---------------------------------------------------*/
+.contact_form {
+	display: flow-root;
+	width: 100%;
+}
+
+form .form_body {
+	display: flex;
+	align-items: center;
+}
+
+form .form_body .left {
+	width: 75%;
+	margin-right: 12px;
+}
+
+form .form_body .left input {
+	width: 100%;
+	border-radius: 5px;
+    border:2px var(--extra-color) solid;
+}
+
+form .form_body.light .left input {
+    border:2px #F2ECE2 solid;
 }
 
 /*---------------------------------------------------*/
