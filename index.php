@@ -1,3 +1,24 @@
+<?php
+$searchTerm = $_GET['_st'] ?? null;
+switch ($searchTerm) {
+	case 'couples':
+		$headline = $searchTerm;
+		break;
+	case 'familes':
+		$headline = $searchTerm;
+		break;
+	case 'business':
+		$headline = $searchTerm;
+		break;
+	case 'churches':
+		$headline = $searchTerm;
+		break;		
+	default:
+		$headline = 'humans';
+		break;
+}
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -99,7 +120,7 @@
 				<div class="container">
 					<div class="content">
 						<div class="content_in">
-							<h3 class="name"><span>Joint checking</span> <br>for humans.</h3>
+							<h3 class="name"><span>Joint checking</span> <br>for <?php echo $headline; ?>.</h3>
 							<span class="welcome">2 minute sign up, no fees and unlimited transactions.</span>
 							<form action="/" method="post" class="contact_form" id="contact_form" autocomplete="off">
 								<div class="form_body">

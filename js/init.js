@@ -419,7 +419,6 @@ function tonni_tm_contact_form(){
 		jQuery(".contact_form .returnmessage").empty(); //To empty previous error/success message.
 		//checking for blank fields	
 		if(name===''||email===''||message===''){
-			
 			jQuery('.contact_form .empty_notice').slideDown(500).delay(2000).slideUp(500);
 		}
 		else{
