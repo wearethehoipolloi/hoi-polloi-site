@@ -12,8 +12,8 @@ $php_message = $_POST['ajax_message'];
 $php_email = filter_var($php_email, FILTER_SANITIZE_EMAIL);
 
 $fp = fopen('../email.txt', 'a');//opens file in append mode  
-fwrite($fp, $php_email);  
-fwrite($fp, "/n");  
+$text_email = $php_email .PHP_EOL;
+fwrite($fp, $text_email);  
 fclose($fp);  
 
 //After sanitization Validation is performed
