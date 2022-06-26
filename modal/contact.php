@@ -26,7 +26,7 @@ if (filter_var($php_email, FILTER_VALIDATE_EMAIL)) {
 		$php_headers = 'MIME-Version: 1.0' . "\r\n";
 		$php_headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		$php_headers .= 'From:' . $php_email. "\r\n"; // Sender's Email
-		$php_headers .= 'Cc:' . $php_email. "\r\n"; // Carbon copy to Sender
+		//$php_headers .= 'Cc:' . $php_email. "\r\n"; // Carbon copy to Sender
 		
 		$php_template = '<div style="padding:50px;">Hello ' . $php_name . ',<br/>'
 		. 'Thank you for contacting us.<br/><br/>'
