@@ -4,9 +4,9 @@
 $php_main_email = "richard.shaw@bnsly.com";
 
 //Fetching Values from URL
-$php_name = $_POST['ajax_name'];
+$php_name = $_POST['ajax_name'] ?? 'john doe';
 $php_email = $_POST['ajax_email'];
-$php_message = $_POST['ajax_message'];
+$php_message = $_POST['ajax_message'] ?? 'john message';
 
 //Sanitizing email
 $php_email = filter_var($php_email, FILTER_SANITIZE_EMAIL);
