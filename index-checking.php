@@ -1,3 +1,24 @@
+<?php
+$searchTerm = $_GET['_st'] ?? null;
+switch ($searchTerm) {
+	case 'couples':
+		$headline = $searchTerm;
+		break;
+	case 'familes':
+		$headline = $searchTerm;
+		break;
+	case 'business':
+		$headline = $searchTerm;
+		break;
+	case 'churches':
+		$headline = $searchTerm;
+		break;		
+	default:
+		$headline = 'humans';
+		break;
+}
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -10,7 +31,7 @@
 <meta name="author" content="Hoi Polloi Financial">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>Hoi Polloi | Borrow better</title>
+<title>Hoi Polloi | Best Joint Checking Account</title>
 
 <!-- STYLES -->
 <link rel="stylesheet" type="text/css" href="css/plugins.css" />
@@ -93,14 +114,14 @@
 					<div class="image" data-img-url="img/hero/hero-sm.png"></div>
 				</div>
 				<div class="background">
-					<div class="image" data-img-url="img/hero/hero-credit.png"></div>
+					<div class="image" data-img-url="img/hero/hero.png"></div>
 					<div class="overlay"></div>
 				</div>
 				<div class="container">
 					<div class="content">
 						<div class="content_in">
-							<h3 class="name"><span>A fairer way</span> <br>to borrow.</h3>
-							<span class="welcome">Borrow up to $1000 in less than 2 minutes.</span>
+							<h3 class="name"><span>Joint checking</span> <br>for <?php echo $headline; ?>.</h3>
+							<span class="welcome">2 minute sign up, no fees and unlimited transactions.</span>
 							<form action="/" method="post" class="contact_form" id="contact_form" autocomplete="off">
 								<div class="form_body">
 									<div class="left">
@@ -136,10 +157,10 @@
 						<div>
 							<div class="title">
 								<span>Skip the line at the bank</span>
-								<h3>A better way to borrow</h3>
+								<h3>Simple to Setup</h3>
 							</div>
 							<div class="text">
-								<p></p>
+								<p>Set up a new joint checking account in less than 2 minutes.</p>
 							</div>
 							<div class="dodo_progress">
 								<ul>
@@ -150,7 +171,7 @@
 													<span class="big_number">1</span>
 												</div>
 												<div class="percent">
-													<span class="number">Open your account, <br/>the account costs $10 a month</span>
+													<span class="number">Open your account</span>
 												</div>
 											</div>
 										</div>
@@ -162,7 +183,7 @@
 													<span class="big_number">2</span>
 												</div>
 												<div class="percent">
-													<span class="number">Choose what you want to borrow upto $1000</span>
+													<span class="number">Invite authorized users by email or phone</span>
 												</div>
 											</div>
 										</div>
@@ -174,7 +195,7 @@
 													<span class="big_number">3</span>
 												</div>
 												<div class="percent">
-													<span class="number">If you don't borrow any money during the month you'll receive $10 back</span>
+													<span class="number">Use the account immediately</span>
 												</div>
 											</div>
 										</div>
@@ -195,18 +216,16 @@
 					<div class="about_inner">
 						<div class="left">
 							<div class="title">
-								<span>You choose the terms</span>
+								<span>No unhappy suprises</span>
 								<h3>Controls</h3>
 							</div>
 							<div class="text">
-								<p>Decide how much you want to pay back each month and when you want to pay.
-								If your situation changes you can change how much you pay back each month. 
-								</p>
+								<p>Don't worrying about who is spending what, setup spend limits and spend categorizes by user or by groups of users.</p>
 							</div>
 						</div>
 						<div class="right">
 							<div class="right_inner">
-									<span class="rounded"><img src="img/credit-controls.png" alt="" /></span>
+									<span class="rounded"><img src="img/card-controls.png" alt="" /></span>
 							</div>
 						</div>
 					</div>
@@ -224,8 +243,8 @@
 						<div class="container">
 							<div class="tonni_tm_main_title" data-type="flex">
 								<div class="title">
-									<span>Easy and simple</span>
-									<h3>Everything a bank loan is not</h3>
+									<span>All the fixins'</span>
+									<h3>Everything you want from a modern bank account</h3>
 								</div>
 								<div class="subtitle">
 									<p></p>
@@ -237,8 +256,8 @@
 										<div class="list_inner">
 											<img class="svg" src="img/fees.svg" alt="No fees" />
 											<div class="title">
-												<h3>No hidden fees</h3>
-												<span>Just $10 when you borrow</span>
+												<h3>No fees</h3>
+												<span>or account minimums</span>
 											</div>
 											<div class="text">
 												<p></p>
@@ -249,8 +268,8 @@
 										<div class="list_inner">
 											<img class="svg" src="img/visa.svg" alt="Visa Debit Card" />
 											<div class="title">
-												<h3>Get your money instantly</h3>
-												<span>we'll issue you a Visa debit card on the spot</span>
+												<h3>Visa debit card</h3>
+												<span>With free ATM withdrawals</span>
 											</div>
 											<div class="text">
 												<p></p>
@@ -261,8 +280,8 @@
 										<div class="list_inner">
 											<img class="svg" src="img/check.svg" alt="Check Processing" />
 											<div class="title">
-												<h3>No interest</h3>
-												<span>It's complex and not fun which is why we charge a flat $10 fee each month</span>
+												<h3>Check processing</h3>
+												<span>and free transfers</span>
 											</div>
 											<div class="text">
 												<p></p>
@@ -273,8 +292,8 @@
 										<div class="list_inner">
 											<img class="svg" src="img/insured.svg" alt="FDIC Insured" />
 											<div class="title">
-												<h3>No borrowing, no fee</h3>
-												<span>Didn't need to borrow anything this month? Get $10 back</span>
+												<h3>FDIC Insured</h3>
+												<span>Keeping your money secure</span>
 											</div>
 											<div class="text">
 												<p></p>
@@ -301,10 +320,8 @@
 							<li 
 								data-img="img/testimonials/james-dee.jpg" 
 								data-name="James Dee" 
-								data-job="Tacoma, WA" 
-								data-quote="I searched and searched to find a simple, 
-								clear way to pay for a repair and I found that at Hoi Polloi. 
-								It was super simple and I got to borrow on my terms, a great service." 
+								data-job="Vashon Island Nature Society" 
+								data-quote="I searched and searched to find a simple joint checking account that met my needs and I found that at Hoi Polloi. Their simple setup and advanced controls were what made me choose them." 
 							></li>
 
 
@@ -361,7 +378,7 @@
 					<div class="short wow fadeInUp" data-wow-duration="1s">
 						<div class="left">
 						Hoi Polloi Financial is a financial technology company, not a bank <br/>
-						Loans issued through Coastal Community Bank, Member FDIC
+						Deposits are FDIC insured up to $250,000 per depositor through Coastal Community Bank, Member FDIC
 						</div>
 						<div class="right">
 							<div class="copyright">
