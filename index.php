@@ -54,7 +54,7 @@
 					<ul class="anchor_nav">
 						<li class="current"><a href="#home">Home</a></li>
 						<li><a href="#about">Setup</a></li>
-						<li><a href="#controls">Controls</a></li>
+						<li><a href="#controls">Control</a></li>
 						<li><a href="#service"">Account</a></li>
 					</ul>
 				</div>
@@ -196,7 +196,7 @@
 						<div class="left">
 							<div class="title">
 								<span>You choose the terms</span>
-								<h3>Controls</h3>
+								<h3>Control</h3>
 							</div>
 							<div class="text">
 								<p>Decide how much you want to pay back each month and when you want to pay.
@@ -360,12 +360,17 @@
 					</div>
 					<div class="short wow fadeInUp" data-wow-duration="1s">
 						<div class="left">
-						Hoi Polloi Financial is a financial technology company, not a bank <br/>
-						Loans issued through Coastal Community Bank, Member FDIC
+						Hoi Polloi Financial is a financial technology company, not a bank.<br/>
+						Loans issued through Coastal Community Bank, Member FDIC.<br/><br/>
+						The maximum APR charged is 0% as there are no interest or origination fees. However, there is a $10 a month membership fee. <br/> 
+						Each draw on your credit account has a maximum repayment period of 5 years.<br/><br/>
+						For example, you could borrow $1000 from you credit account for a year with an APR of 0% and choose to pay this back in 12 months.
+						During a 12 month period you would incur $120 in membership fees. <br/><br/>
+						<p>&copy; 2022 by Hoi Polloi Financial Inc.</a> All rights reserved.</p>
 						</div>
 						<div class="right">
 							<div class="copyright">
-								<p>&copy; 2022 by Hoi Polloi Financial Inc.</a> All rights reserved.</p>
+								<
 							</div>
 						</div>
 					</div>
